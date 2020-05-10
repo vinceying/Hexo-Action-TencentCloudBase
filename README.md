@@ -12,8 +12,8 @@
 
 在项目的 `secret` 添加 `ENV_ID` `SECRET_ID` `SECRET_KEY` 相关字段。
 
-SECRET_ID # Required 云开发的访问密钥 secretId
-SECRET_KEY # Required 云开发的访问密钥 secretKey
+SECRET_ID # Required 云开发的访问密钥 secretId  
+SECRET_KEY # Required 云开发的访问密钥 secretKey  
 ENV_ID # Required 云开发的环境 id envId
 
 ## ✔ 使用内容及灵感来源
