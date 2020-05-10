@@ -10,7 +10,7 @@
 
 ## 🔐 腾讯云相关输入内容
 
-在项目的 'secret' 添加 'ENV_ID' 'SECRET_ID' 'SECRET_KEY' 相关字段。
+在项目的 `secret` 添加 `ENV_ID` `SECRET_ID` `SECRET_KEY` 相关字段。
 
 SECRET_ID # Required 云开发的访问密钥 secretId
 SECRET_KEY # Required 云开发的访问密钥 secretKey
