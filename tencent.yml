@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-      # NPM adn Hexo
+      # NPM and Hexo
       - name: NPM
         run: npm install
       - name: Clean
