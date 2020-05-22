@@ -5,7 +5,7 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Deploy Heox Souce Repo to Tencent CloudBase
+    name: Deploy Hexo Souce Repo to Tencent CloudBase
     steps:
       - name: Checkout
         uses: actions/checkout@v2
@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '10.x'
-      # NPM 环境及 Hexo 部署
+      # NPM adn Hexo
       - name: NPM
         run: npm install
       - name: Clean
